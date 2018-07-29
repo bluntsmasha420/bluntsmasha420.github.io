@@ -20,7 +20,7 @@
             .title {
                 font-family: impact;
                 text-decoration: underline; 
-                text-shadow: 4px 4px 1px #999
+                text-shadow: 4px 4px 1px #999;
             }
             h6 {
                 font-style: italic;
@@ -30,10 +30,17 @@
             #contents {
                 font-family: gabriola;
             }
+            #text {
+                width:85%;
+                border: 5px solid black;
+                padding: 10px;
+                position: absolute;
+                left: 6%;
+            }
         </style>
-    </head>
+        </head>
     <body>
-        
+    <div id="text">
         <h1 class="title"><center>Blunt's Blog</center></h1>
 
         <h3>Contents</h3>
@@ -42,27 +49,45 @@
             <li><a href="#cssText">Second Post - CSS Text Properties</a></li>
             <li><a href="#webDevTools">Third Post - On to Web Development Tools</a></li>
             <li><a href="#webDevToolsComp">Fourth Post - Web Development Tools Complete</a></li>
+            <li><a href="#cssLayout">Fifth Post - CSS Layout Complete</a></li>
         </ul>
+        
         
         <h2 id="intro" class="title">First Post - Introduction</h2>
         <h6>Tuesday July 24th, 2018</h6>
         
         <p>Hello World. This is my first blog post on my khan academy computer programming blog. Thanks for checking me out. I really find this site is great for learning on and can't wait to learn all of the computer programming area here. Thanks for this great opportunity Sal!</p>
         
+        
         <h2 id="cssText" class="title">Second Post - CSS Text Properties</h2>
         <h6>Tuesday July 24th, 2018</h6>
         
         <p>Today I learned the second half of the CSS text properties section here in Khan Academy. I hope to progress a bit further today but am getting pretty tired from being up all night with poor Fox whose getting his molars in. I also have to give Liquid Mike a hand with Endomaps troubleshooting tongiht so may have to call it quits here. </p>
+        
         
         <h2 id="webDevTools" class="title">Third Post - On to Web Development Tools</h2>
         <h6>Tuesday July 25th, 2018</h6>
         
         <p>I plan to make the extra effort today to complete this project and move onto the Web Development Tools part of Intro to HTML/CSS: Making Webpages. Feels good to be making this progress and learning some things that will help me with my endomaps.world project.</p>
         
+        
         <h2 id="webDevToolsComp" class="title">Fourth Post - Web Development Tools Complete</h2>
         <h6>Tuesday July 25th, 2018</h6>
         
         <p>I made it through the Web development tools and got some great advice along the way. I will have to get my github account all ready so i can utilize the online live editor similar to khan academy here at <a href="http://ide.c9.io/">Cloud 9</a>. For offline use i have Visual Studio Code and Sublime Text downloaded on my computer for that purpose. They will still require set up for the colors and syntax. Lastly I now have a place to host some of my webpage files so i can continue to learn my own projects better with my <a href="http://github.com">GitHub</a> website. </p>
-        <h1>Hi <a href="http://steemit.com/@jonyoudyer">@jonyoudyer</a></h1>
+        
+        <h2 id="cssLayout" class="title">Fifth Post - CSS Layout Complete</h2>
+        <h6>Sunday July 29th, 2018</h6>
+        
+        <p>This was a big section. It covered:</p>
+            <ol>
+                <li>How you should group similar blocks for positioning and attribute manipulation. Divs and spans</li>
+                <li>How to set the width, height and what happens when the text overflows the parameters like the direction it goes and if t gets a scroll box</li>
+                <li>The box model and how it contains, margin, border, padding and content.</li>
+                <li>Positioning with absolute, fixed and relative</li>
+                <li>Floating objects with z-indexing</li>
+            </ol>
+        
+    </div>    
     </body>
 </html>
